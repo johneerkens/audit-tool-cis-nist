@@ -1,0 +1,16 @@
+[
+    {
+        "id": "router-1",
+        "name": "Home Router",
+        "type": "network",
+        "criticality": 5,
+        "exposure": 5
+    },
+    {
+        "id": "laptop-1",
+        "name": "personal laptop",
+        "type": endpoint",
+        "criticality": 4,
+        "exposure": 3
+    }
+]
