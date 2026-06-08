@@ -9,7 +9,7 @@
     {
         "id": "laptop-1",
         "name": "personal laptop",
-        "type": endpoint",
+        "type": "endpoint",
         "criticality": 4,
         "exposure": 3
     }
