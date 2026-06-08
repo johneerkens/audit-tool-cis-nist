@@ -12,5 +12,12 @@
         "type": "endpoint",
         "criticality": 4,
         "exposure": 3
+    },
+    {
+        "id": "iot-1",
+        "name": "Smart TV",
+        "type": "iot",
+        "criticality": 2,
+        "exposure": 4
     }
 ]
