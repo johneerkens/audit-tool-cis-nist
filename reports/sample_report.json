@@ -1,0 +1,1140 @@
+{
+  "overall": {
+    "items": 153,
+    "status_counts": {
+      "PASS": 5,
+      "FAIL": 5,
+      "NOT_ASSESSED": 143
+    },
+    "maturity_pct": 34.42
+  },
+  "functions": {
+    "Identify": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 1,
+      "not_assessed": 22,
+      "score": 47,
+      "items": 24,
+      "maturity_pct": 34.72
+    },
+    "Protect": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 3,
+      "not_assessed": 88,
+      "score": 185,
+      "items": 92,
+      "maturity_pct": 32.97
+    },
+    "Detect": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 1,
+      "not_assessed": 21,
+      "score": 45,
+      "items": 23,
+      "maturity_pct": 34.78
+    },
+    "Recover": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0,
+      "not_assessed": 4,
+      "score": 8,
+      "items": 5,
+      "maturity_pct": 46.67
+    },
+    "Respond": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0,
+      "not_assessed": 8,
+      "score": 16,
+      "items": 9,
+      "maturity_pct": 40.74
+    }
+  },
+  "controls": [
+    {
+      "control_id": "1",
+      "control_name": "Inventory and Control of Enterprise Assets",
+      "nist_function": "Identify",
+      "nist_category": "ID.AM",
+      "maturity_pct": 40.0,
+      "safeguards": [
+        {
+          "id": "1.1",
+          "title": "Establish and Maintain Detailed Enterprise Asset Inventory",
+          "status": "PASS",
+          "score": 0
+        },
+        {
+          "id": "1.2",
+          "title": "Address Unauthorized Assets",
+          "status": "FAIL",
+          "score": 3
+        },
+        {
+          "id": "1.3",
+          "title": "Utilize an Active Discovery Tool",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "1.4",
+          "title": "Use Dynamic Host Configuration Protocol (DHCP) Logging to Update Enterprise Asset Inventory",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "1.5",
+          "title": "Use a Passive Asset Discovery Tool",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "control_id": "2",
+      "control_name": "Inventory and Control of Software Assets",
+      "nist_function": "Identify",
+      "nist_category": "ID.AM",
+      "maturity_pct": 33.33,
+      "safeguards": [
+        {
+          "id": "2.1",
+          "title": "Establish and Maintain a Software Inventory",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "2.2",
+          "title": "Ensure Authorized Software is Currently Supported",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "2.3",
+          "title": "Address Unauthorized Software",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "2.4",
+          "title": "Utilize Automated Software Inventory Tools",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "2.5",
+          "title": "Allowlist Authorized Software",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "2.6",
+          "title": "Allowlist Authorized Libraries",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "2.7",
+          "title": "Allowlist Authorized Scripts",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "control_id": "3",
+      "control_name": "Data Protection",
+      "nist_function": "Protect",
+      "nist_category": "PR.DS",
+      "maturity_pct": 33.33,
+      "safeguards": [
+        {
+          "id": "3.1",
+          "title": "Establish and Maintain a Data Management Process",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "3.2",
+          "title": "Establish and Maintain a Data Inventory",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "3.3",
+          "title": "Configure Data Access Control Lists",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "3.4",
+          "title": "Enforce Data Retention",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "3.5",
+          "title": "Securely Dispose of Data",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "3.6",
+          "title": "Encrypt Data on End-User Devices",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "3.7",
+          "title": "Establish and Maintain a Data Classification Scheme",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "3.8",
+          "title": "Document Data Flows",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "3.9",
+          "title": "Encrypt Data on Removable Media",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "3.10",
+          "title": "Encrypt Sensitive Data in Transit",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "3.11",
+          "title": "Encrypt Sensitive Data at Rest",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "3.12",
+          "title": "Segment Data Processing and Storage Based on Sensitivity",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "3.13",
+          "title": "Deploy a Data Loss Prevention Solution",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "3.14",
+          "title": "Log Sensitive Data Access",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "control_id": "4",
+      "control_name": "Secure Configuration of Enterprise Assets and Software",
+      "nist_function": "Protect",
+      "nist_category": "PR.IP",
+      "maturity_pct": 33.33,
+      "safeguards": [
+        {
+          "id": "4.1",
+          "title": "Establish and Maintain a Secure Configuration Process",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "4.2",
+          "title": "Establish and Maintain a Secure Configuration Process for Network Infrastructure",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "4.3",
+          "title": "Configure Automatic Session Locking on Enterprise Assets",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "4.4",
+          "title": "Implement and Manage a Firewall on Servers",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "4.5",
+          "title": "Implement and Manage a Firewall on End-User Devices",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "4.6",
+          "title": "Securely Manage Enterprise Assets and Software",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "4.7",
+          "title": "Manage Default Accounts on Enterprise Assets and Software",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "4.8",
+          "title": "Uninstall or Disable Unnecessary Services on Enterprise Assets and Software",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "4.9",
+          "title": "Configure Trusted DNS Servers on Enterprise Assets",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "4.10",
+          "title": "Enforce Automatic Device Lockout on Portable End-User Devices",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "4.11",
+          "title": "Enforce Remote Wipe Capability on Portable End-User Devices",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "4.12",
+          "title": "Separate Enterprise Workspaces on Mobile End-User Devices",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "control_id": "5",
+      "control_name": "Account Management",
+      "nist_function": "Protect",
+      "nist_category": "PR.AC",
+      "maturity_pct": 38.89,
+      "safeguards": [
+        {
+          "id": "5.1",
+          "title": "Establish and Maintain an Inventory of Accounts",
+          "status": "PASS",
+          "score": 0
+        },
+        {
+          "id": "5.2",
+          "title": "Use Unique Passwords",
+          "status": "FAIL",
+          "score": 3
+        },
+        {
+          "id": "5.3",
+          "title": "Disable Dormant Accounts",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "5.4",
+          "title": "Restrict Administrator Privileges to Dedicated Administrator Accounts",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "5.5",
+          "title": "Establish and Maintain an Inventory of Service Accounts",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "5.6",
+          "title": "Centralize Account Management",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "control_id": "6",
+      "control_name": "Access Control Management",
+      "nist_function": "Protect",
+      "nist_category": "PR.AC",
+      "maturity_pct": 29.17,
+      "safeguards": [
+        {
+          "id": "6.1",
+          "title": "Establish an Access Granting Process",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "6.2",
+          "title": "Establish an Access Revoking Process",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "6.3",
+          "title": "Require MFA for Externally-Exposed Applications",
+          "status": "FAIL",
+          "score": 3
+        },
+        {
+          "id": "6.4",
+          "title": "Require MFA for Remote Network Access",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "6.5",
+          "title": "Require MFA for Administrative Access",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "6.6",
+          "title": "Establish and Maintain an Inventory of Authentication and Authorization Systems",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "6.7",
+          "title": "Centralize Access Control",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "6.8",
+          "title": "Define and Maintain Role-Based Access Control",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "control_id": "7",
+      "control_name": "Continuous Vulnerability Management",
+      "nist_function": "Protect",
+      "nist_category": "PR.IP",
+      "maturity_pct": 33.33,
+      "safeguards": [
+        {
+          "id": "7.1",
+          "title": "Establish and Maintain a Vulnerability Management Process",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "7.2",
+          "title": "Establish and Maintain a Remediation Process",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "7.3",
+          "title": "Perform Automated Operating System Patch Management",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "7.4",
+          "title": "Perform Automated Application Patch Management",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "7.5",
+          "title": "Perform Automated Vulnerability Scans of Internal Enterprise Assets",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "7.6",
+          "title": "Perform Automated Vulnerability Scans of Externally-Exposed Enterprise Assets",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "7.7",
+          "title": "Remediate Detected Vulnerabilities",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "control_id": "8",
+      "control_name": "Audit Log Management",
+      "nist_function": "Detect",
+      "nist_category": "DE.AE",
+      "maturity_pct": 38.89,
+      "safeguards": [
+        {
+          "id": "8.1",
+          "title": "Establish and Maintain an Audit Log Management Process",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "8.2",
+          "title": "Collect Audit Logs",
+          "status": "PASS",
+          "score": 0
+        },
+        {
+          "id": "8.3",
+          "title": "Ensure Adequate Audit Log Storage",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "8.4",
+          "title": "Standardize Time Synchronization",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "8.5",
+          "title": "Collect Detailed Audit Logs",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "8.6",
+          "title": "Collect DNS Query Audit Logs",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "8.7",
+          "title": "Collect URL Request Audit Logs",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "8.8",
+          "title": "Collect Command-Line Audit Logs",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "8.9",
+          "title": "Centralize Audit Logs",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "8.10",
+          "title": "Retain Audit Logs",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "8.11",
+          "title": "Conduct Audit Log Reviews",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "8.12",
+          "title": "Collect Service Provider Logs",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "control_id": "9",
+      "control_name": "Email and Web Browser Protections",
+      "nist_function": "Protect",
+      "nist_category": "PR.AT",
+      "maturity_pct": 33.33,
+      "safeguards": [
+        {
+          "id": "9.1",
+          "title": "Ensure Use of Only Fully Supported Browsers and Email Clients",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "9.2",
+          "title": "Use DNS Filtering Services",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "9.3",
+          "title": "Maintain and Enforce Network-Based URL Filters",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "9.4",
+          "title": "Restrict Unnecessary or Unauthorized Browser and Email Client Extensions",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "9.5",
+          "title": "Implement DMARC",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "9.6",
+          "title": "Block Unnecessary File Types",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "9.7",
+          "title": "Deploy and Maintain Email Server Anti-Malware Protections",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "control_id": "10",
+      "control_name": "Malware Defenses",
+      "nist_function": "Protect",
+      "nist_category": "PR.DS",
+      "maturity_pct": 33.33,
+      "safeguards": [
+        {
+          "id": "10.1",
+          "title": "Deploy and Maintain Anti-Malware Software",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "10.2",
+          "title": "Configure Automatic Anti-Malware Signature Updates",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "10.3",
+          "title": "Disable Autorun and Autoplay for Removable Media",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "10.4",
+          "title": "Configure Automatic Anti-Malware Scanning of Removable Media",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "10.5",
+          "title": "Enable Anti-Exploitation Features",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "10.6",
+          "title": "Centrally Manage Anti-Malware Software",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "10.7",
+          "title": "Use Behavior-Based Anti-Malware Software",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "control_id": "11",
+      "control_name": "Data Recovery",
+      "nist_function": "Recover",
+      "nist_category": "RC.RP",
+      "maturity_pct": 46.67,
+      "safeguards": [
+        {
+          "id": "11.1",
+          "title": "Establish and Maintain a Data Recovery Process",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "11.2",
+          "title": "Perform Automated Backups",
+          "status": "PASS",
+          "score": 0
+        },
+        {
+          "id": "11.3",
+          "title": "Protect Recovery Data",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "11.4",
+          "title": "Establish and Maintain an Isolated Instance of Recovery Data",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "11.5",
+          "title": "Test Data Recovery",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "control_id": "12",
+      "control_name": "Network Infrastructure Management",
+      "nist_function": "Protect",
+      "nist_category": "PR.PT",
+      "maturity_pct": 29.17,
+      "safeguards": [
+        {
+          "id": "12.1",
+          "title": "Ensure Network Infrastructure is Up-to-Date",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "12.2",
+          "title": "Establish and Maintain a Secure Network Architecture",
+          "status": "FAIL",
+          "score": 3
+        },
+        {
+          "id": "12.3",
+          "title": "Securely Manage Network Infrastructure",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "12.4",
+          "title": "Establish and Maintain Architecture Diagram (s)",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "12.5",
+          "title": "Centralize Network Authentication, Authorization, and Auditing (AAA)",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "12.6",
+          "title": "Use of Secure Network Management and Communication Protocols",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "12.7",
+          "title": "Ensure Remote Devices Utilize a VPN and are Connecting to an Enterprise\u2019s AAA Infrastructure",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "12.8",
+          "title": "Establish and Maintain Dedicated Computing Resources for All Administrative Work",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "control_id": "13",
+      "control_name": "Network Monitoring and Defense",
+      "nist_function": "Detect",
+      "nist_category": "DE.CM",
+      "maturity_pct": 30.3,
+      "safeguards": [
+        {
+          "id": "13.1",
+          "title": "Centralize Security Event Alerting",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "13.2",
+          "title": "Deploy a Host-Based Intrusion Detection Solution",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "13.3",
+          "title": "Deploy a Network Intrusion Detection Solution",
+          "status": "FAIL",
+          "score": 3
+        },
+        {
+          "id": "13.4",
+          "title": "Perform Traffic Filtering Between Network Segments",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "13.5",
+          "title": "Manage Access Control for Remote Assets",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "13.6",
+          "title": "Collect Network Traffic Flow Logs",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "13.7",
+          "title": "Deploy a Host-Based Intrusion Prevention Solution",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "13.8",
+          "title": "Deploy a Network Intrusion Prevention Solution",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "13.9",
+          "title": "Deploy Port-Level Access Control",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "13.10",
+          "title": "Perform Application Layer Filtering",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "13.11",
+          "title": "Tune Security Event Alerting Thresholds",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "control_id": "14",
+      "control_name": "Security Awareness and Skills Training",
+      "nist_function": "Protect",
+      "nist_category": "PR.AT",
+      "maturity_pct": 33.33,
+      "safeguards": [
+        {
+          "id": "14.1",
+          "title": "Establish and Maintain a Security Awareness Program",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "14.2",
+          "title": "Train Workforce Members to Recognize Social Engineering Attacks",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "14.3",
+          "title": "Train Workforce Members on Authentication Best Practices",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "14.4",
+          "title": "Train Workforce on Data Handling Best Practices",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "14.5",
+          "title": "Train Workforce Members on Causes of Unintentional Data Exposure",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "14.6",
+          "title": "Train Workforce Members on Recognizing and Reporting Security Incidents",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "14.7",
+          "title": "Train Workforce on How to Identify and Report if Their Enterprise Assets are Missing Security Updates",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "14.8",
+          "title": "Train Workforce on the Dangers of Connecting to and Transmitting Enterprise Data Over Insecure Networks",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "14.9",
+          "title": "Conduct Role-Specific Security Awareness and Skills Training",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "control_id": "15",
+      "control_name": "Service Provider Management",
+      "nist_function": "Identify",
+      "nist_category": "ID.SC",
+      "maturity_pct": 33.33,
+      "safeguards": [
+        {
+          "id": "15.1",
+          "title": "Establish and Maintain an Inventory of Service Providers",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "15.2",
+          "title": "Establish and Maintain a Service Provider Management Policy",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "15.3",
+          "title": "Classify Service Providers",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "15.4",
+          "title": "Ensure Service Provider Contracts Include Security Requirements",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "15.5",
+          "title": "Assess Service Providers",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "15.6",
+          "title": "Monitor Service Providers",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "15.7",
+          "title": "Securely Decommission Service Providers",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "control_id": "16",
+      "control_name": "Application Software Security",
+      "nist_function": "Protect",
+      "nist_category": "PR.IP",
+      "maturity_pct": 33.33,
+      "safeguards": [
+        {
+          "id": "16.1",
+          "title": "Establish and Maintain a Secure Application Development Process",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "16.2",
+          "title": "Establish and Maintain a Process to Accept and Address Software Vulnerabilities",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "16.3",
+          "title": "Perform Root Cause Analysis on Security Vulnerabilities",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "16.4",
+          "title": "Establish and Manage an Inventory of Third-Party Software Components",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "16.5",
+          "title": "Use Up-to-Date and Trusted Third-Party Software Components",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "16.6",
+          "title": "Establish and Maintain a Severity Rating System and Process for Application Vulnerabilities",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "16.7",
+          "title": "Use Standard Hardening Configuration Templates for Application Infrastructure",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "16.8",
+          "title": "Separate Production and Non-Production Systems",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "16.9",
+          "title": "Train Developers in Application Security Concepts and Secure Coding",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "16.10",
+          "title": "Apply Secure Design Principles in Application Architectures",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "16.11",
+          "title": "Leverage Vetted Modules or Services for Application Security Components",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "16.12",
+          "title": "Implement Code-Level Security Checks",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "16.13",
+          "title": "Conduct Application Penetration Testing",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "16.14",
+          "title": "Conduct Threat Modeling",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "control_id": "17",
+      "control_name": "Incident Response Management",
+      "nist_function": "Respond",
+      "nist_category": "RS.RP",
+      "maturity_pct": 40.74,
+      "safeguards": [
+        {
+          "id": "17.1",
+          "title": "Designate Personnel to Manage Incident Handling",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "17.2",
+          "title": "Establish and Maintain Contact Information for Reporting Security Incidents",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "17.3",
+          "title": "Establish and Maintain an Enterprise Process for Reporting Incidents",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "17.4",
+          "title": "Establish and Maintain an Incident Response Process",
+          "status": "PASS",
+          "score": 0
+        },
+        {
+          "id": "17.5",
+          "title": "Assign Key Roles and Responsibilities",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "17.6",
+          "title": "Define Mechanisms for Communicating During Incident Response",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "17.7",
+          "title": "Conduct Routine Incident Response Exercises",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "17.8",
+          "title": "Conduct Post-Incident Reviews",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "17.9",
+          "title": "Establish and Maintain Security Incident Thresholds",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "control_id": "18",
+      "control_name": "Penetration Testing",
+      "nist_function": "Identify",
+      "nist_category": "ID.RA",
+      "maturity_pct": 33.33,
+      "safeguards": [
+        {
+          "id": "18.1",
+          "title": "Establish and Maintain a Penetration Testing Program",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "18.2",
+          "title": "Perform Periodic External Penetration Tests",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "18.3",
+          "title": "Remediate Penetration Test Findings",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "18.4",
+          "title": "Validate Security Measures",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        },
+        {
+          "id": "18.5",
+          "title": "Perform Periodic Internal Penetration Tests",
+          "status": "NOT_ASSESSED",
+          "score": 2
+        }
+      ]
+    }
+  ]
+}
