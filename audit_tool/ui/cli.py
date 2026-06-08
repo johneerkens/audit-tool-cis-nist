@@ -1,6 +1,7 @@
 from __future__ import annotations
 import argparse
 import json
+from audit_tool.core.assets import load_assets
 from pathlib import Path
 from audit_tool.core.dataset import load_controls, all_safeguards
 from audit_tool.core.scoring import summarize_assessment
@@ -56,7 +57,9 @@ def cmd_export_dataset(args):
 def cmd_assess(args):
     controls = load_controls()
     answers = _load_answers(args.answers)
-    summary = summarize_assessment(controls, answers)
+
+    assets = load_assets()
+    summary = summarize_assessment(controls, answers, assets)
     print(f"Overall maturity: {summary['overall']['maturity_pct']}%")
     print(f"Status counts: {summary['overall']['status_counts']}")
     print('\nNIST function summary:')
@@ -78,6 +81,8 @@ def cmd_assess(args):
 def cmd_interactive(args):
     controls = load_controls()
     answers = {}
+
+    
     print('Interactive assessment mode. Enter PASS, PARTIAL, FAIL, or NOT_ASSESSED. Press Enter to keep NOT_ASSESSED.')
     for control in controls:
         print(f"\n=== CIS {control['id']} - {control['name']} ===")
@@ -86,7 +91,8 @@ def cmd_interactive(args):
             while raw not in VALID_STATUSES:
                 raw = input('Invalid value. Use PASS, PARTIAL, FAIL, or NOT_ASSESSED: ').strip().upper() or 'NOT_ASSESSED'
             answers[sg['id']] = raw
-    summary = summarize_assessment(controls, answers)
+    assets = load_assets()
+    summary = summarize_assessment(controls, answers, assets)
     print(f"\nOverall maturity: {summary['overall']['maturity_pct']}%")
     if args.output:
         out = Path(args.output)
