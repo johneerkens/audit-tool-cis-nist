@@ -60,8 +60,7 @@ def cmd_assess(args):
 
     assets = load_assets()
     summary = summarize_assessment(controls, answers, assets)
-    print(f"Overall maturity: {summary['overall']['maturity_pct']}%")
-    print(f"Status counts: {summary['overall']['status_counts']}")
+    
     print('\nNIST function summary:')
     for fn, values in sorted(summary['functions'].items()):
         print(f"  - {fn}: maturity {values['maturity_pct']}% | pass={values['pass']} partial={values['partial']} fail={values['fail']} not_assessed={values['not_assessed']}")
